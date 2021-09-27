@@ -1,5 +1,5 @@
 header #nav-menu{
-    max-width: 100vw;
+    max-width: 100%;
     display: flex;
 }
 
@@ -12,14 +12,14 @@ header img{
 #ign-second{
     position: absolute;
     max-width: 9%;
-    top: 1%;
+    top: 15px;
     left: 23%;
 }
 
 header nav{
     position: absolute;
     top: 3%;
-    right: 15vw;
+    right: 150px;
     letter-spacing: 1px;
 }
 
@@ -33,7 +33,7 @@ header li{
 }
 
 header a:link{
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(225, 229, 236);
     text-decoration: none;
     text-transform: capitalize;
@@ -47,8 +47,8 @@ header a:visited{
 header button{
     position: absolute;
     width: 100px;
-    left: 53vw;
-    top: 2vh;
+    left: 700px;
+    top: 18px;
     background-color: #BF1313;
     border: none;
     color: white;

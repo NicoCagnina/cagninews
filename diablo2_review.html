@@ -144,21 +144,28 @@
 
                 <div class="question">
                     <h2>Have you played Diablo II: Resurrected?</h2>
-                    <button>
-                        Yes
-                    </button>
-                    <button>
-                        No
-                    </button>
+                    <div class="question-buttons">
+                        <button>
+                            Yes
+                        </button>
+                        <button>
+                            No
+                        </button>
+                    </div>
+
                 </div>
 
-                <section id="lawsuit-timeline">
+                <section class="image-gallery">
                     <p>
                         Activision Blizzard Lawsuit Timeline: The Story So Far
                     </p>
                     <figure>
-                        <img src="img\diablo2\activisionLawsuitTimeline.png" alt="">
-                        <img src="img\diablo2\imgSlider.png" alt="">
+                        <div class="image">
+                            <img src="img\diablo2\activisionLawsuitTimeline.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="img\diablo2\imgSlider.png" alt="">
+                        </div>
                     </figure>
                 </section>
 
@@ -177,8 +184,8 @@
                     <p>
                         For two decades, I’ve maintained a personal grudge against the dung beetle soldiers in Act 2.
                     </p>
-                    <div class="quote-endline">
-                        <hr>
+                    <div class="quote-separator">
+                        <span>“</span>
                     </div>
                 </div>
 
@@ -189,8 +196,8 @@
                     resistance aura allows me to laugh in their faces and kill them in humiliating
                     ways, and it’s been everything I thought it could be.
                 </p>
-                <figure>
-                    <iframe src="https://www.youtube.com/embed/NpLtYbMXp6c" frameborder="0"></iframe>
+                <figure class="video-container">
+                    <iframe src="https://www.youtube.com/embed/NpLtYbMXp6c" frameborder="0"  class="youtube-video"></iframe>
                 </figure>
                 <p>
                     Some of the mechanical ideas feel old-school relative to how things are done in
@@ -210,8 +217,8 @@
                     <p>
                         I've always wanted to try and make a Necromancer tank.
                     </p>
-                    <div class="quote-endline">
-                        <hr>
+                    <div class="quote-separator">
+                        <span>“</span>
                     </div>
                 </div>
 
@@ -227,6 +234,7 @@
                 </p>
 
                 <form id="favorite-class">
+                    <h3>Who's your favorite Diablo 2 class?</h3>
                     <input type="radio" id="amazon" name="fav-class">
                     <label for="amazon">Amazon</label><br>
 
@@ -253,7 +261,7 @@
                     </button>
 
                     <button class="results">
-                        Seee Results
+                        See Results
                     </button>
                 </form>
 
@@ -269,8 +277,8 @@
                     <p>
                         Some of Diablo 2's design hasn't aged well.
                     </p>
-                    <div class="quote-endline">
-                        <hr>
+                    <div class="quote-separator">
+                        <span>“</span>
                     </div>
                 </div>
                 
@@ -297,13 +305,17 @@
                     strangely.
                 </p>
 
-                <section id="diablo4-gallery">
+                <section class="image-gallery">
                     <p>
                         Diablo 4 - Character Art Gallery
                     </p>
                     <figure>
-                        <img src="img\diablo2\diablo4Art.png" alt="">
-                        <img src="img\diablo2\diablo4Slider.png" alt="">
+                        <div class="image">
+                            <img src="img\diablo2\diablo4Art.png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="img\diablo2\diablo4Slider.png" alt="">
+                        </div>
                     </figure>
                 </section>
 
@@ -328,8 +340,8 @@
                     <p>
                         The moment-to-moment gameplay that made Diablo 2 legendary in its time is completely unchanged.
                     </p>
-                    <div class="quote-endline">
-                        <hr>
+                    <div class="quote-separator">
+                        <span>“</span>
                     </div>
                 </div>
 
@@ -345,8 +357,8 @@
                     your character worse at blocking, if they have a shield – though Diablo 2 will never
                     tell you this.
                 </p>
-                <figure>
-                    <iframe src="https://www.youtube.com/embed/qd7zhTyQazY" frameborder="0"></iframe>
+                <figure class="video-container">
+                    <iframe src="https://www.youtube.com/embed/qd7zhTyQazY" frameborder="0" class="youtube-video"></iframe>
                 </figure>
                 <p>
                     I didn't make it out of Act 1 without looking up the combination of slotted runes that
@@ -382,30 +394,31 @@
                     beyond. For now, please excuse me: I have to go show Mephisto the door.
                 </p>
             </div>
-
+            
+            <div class="separator"></div>
             <div id="article-feedback">
-                <div class="separator"></div>
                 <div class="question">
                     <h2 id="feedback-title">Was this article informative?</h2>
-                    <button>
-                        Yes
-                    </button>
-                    <button>
-                        No
-                    </button>
+                    <div class="question-buttons">
+                        <button>
+                            Yes
+                        </button>
+                        <button>
+                            No
+                        </button>
                 </div>
-                <div class="separator"></div>
             </div>
+            <div class="separator"></div>
             
             <p>
                 In This Article
             </p>
 
             <div id="game-info">
-                <figure>
+                <figure class="game-img">
                     <img src="img\diablo2\diablo2Portrait.jpg" alt="">
                 </figure>
-
+        
                 <div id="game-details">
                     <h3>
                         <strong>Diablo II: Resurrected</strong>
@@ -417,53 +430,54 @@
                     </p>
                     <figure>
                         <img src="img\diablo2\ESRB_M.png" alt="" id="esrb">
+                        <span id="esrb-text">
+                            Violence, Suggestive Themes, Blood and Gore
+                        </span>
                     </figure>
                 </div>
                 
                 <div id="development-info">
                     <!--Developers-->
-                    <div id="game-details-bold">
+                    <div class="game-details-bold">
                         Developers
                     </div>
                     <p>
                         Blizzard Entertainment
                     </p>
                     <!--Publishers-->
-                    <div id="game-details-bold">
+                    <div class="game-details-bold">
                         Publishers
                     </div>
                     <p>
                         Blizzard Entertainment
                     </p>
                     <!--Franchises-->
-                    <div id="game-details-bold">
+                    <div class="game-details-bold">
                         Franchises
                     </div>
                     <p>
                         Diablo
                     </p>
                 </div>
-
+        
                 <div id="release-info">
-                    <!--Release date-->
-                    <div id="game-details-bold">
-                        Release date
+                    <!--Developers-->
+                    <div class="game-details-bold">
+                        Release Date
                     </div>
                     <p>
-                        <time datetime="2021-09-22">
-                            September 22, 2021
-                        </time>
+                        September 23, 2021
                     </p>
-                    <!--Platforms-->
-                    <div id="game-details-bold">
-                        Release date
+                    <!--Publishers-->
+                    <div class="game-details-bold">
+                        Platforms
                     </div>
                     <p>
-                        PC, Xbox Series X|S, PlayStation 4, PlayStation 5, Nintendo Switch
+                        PC, Xbox Series X|S, PlayStation 4
                     </p>
-                    <!--Genres-->
-                    <div id="game-details-bold">
-                        Release date
+                    <!--Franchises-->
+                    <div class="game-details-bold">
+                        Genres
                     </div>
                     <p>
                         Action, RPG
