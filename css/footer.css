@@ -1,0 +1,50 @@
+#recommendations *{
+    display: block;
+    margin: 0;
+    margin-top: 20px;
+}
+
+#recommendations h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 40%;
+}
+
+#recommendations a{
+    text-decoration: none;
+    color: rgb(225, 229, 236);
+}
+
+#recommendations a:visited{
+    color: rgb(225, 229, 236);
+}
+
+#ign-logo{
+    margin-top: 20px;
+    margin-left: 45%;
+    max-width: 100px;
+}
+
+.recommendation-photo{
+    position: absolute;
+    left: 40%;
+    margin-top: 20px;
+}
+
+.recommendation-photo img{
+    max-width: 350px;
+    border-radius: 24px;
+}
+
+.recommendation-photo span{
+    max-width: 350px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+
+

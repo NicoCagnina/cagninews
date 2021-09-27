@@ -11,6 +11,12 @@ article a:visited{
     color: rgb(109, 179, 223);
 }
 
+#note-intro{
+    position: absolute;
+    max-width: 1200px;
+    top: 150px;
+}
+
 #note-link{
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -20,7 +26,6 @@ article a:visited{
 }
 
 #note-title *{
-    max-width: 950px;
     margin: 0;
 }
 
@@ -54,7 +59,11 @@ article a:visited{
 .author-portrait{
     position: absolute;
     border-radius: 50%;
-    top: 920px;
+    top: 985px;
+}
+
+#blizzard-status{
+    margin-top: 1150px;
 }
 
 #blizzard-lawsuit{
@@ -62,6 +71,7 @@ article a:visited{
 }
 
 #review{
+    margin-top: 30px;
     max-width: 700px;
 }
 
@@ -92,6 +102,10 @@ article a:visited{
     border: 1px solid rgb(78, 97, 135);
     border-radius: 5%;
     letter-spacing: 2px;
+}
+
+.question-buttons button:hover{
+    background-color: #4E6187;
 }
 
 .image-gallery *{
@@ -144,7 +158,6 @@ article a:visited{
     margin-bottom: 20px;
     padding: 0;
 }
-
 
 .video-container{
     margin: 0;
@@ -229,7 +242,6 @@ input[type='radio']:checked:after {
     margin-left: 10%;
 }
 
-
 #game-info{
     position: relative;
     padding: 2px 16px 20px;
@@ -237,7 +249,6 @@ input[type='radio']:checked:after {
     color: rgb(225, 229, 236);
     box-shadow: rgb(0 0 0 / 50%) 0px 0px 25px;
     border-radius: 24px;
-    max-width: 900%;
 }
 
 #game-info p{
@@ -291,7 +302,7 @@ input[type='radio']:checked:after {
 }
 
 .separator{
-    width: 100%;
+    max-width: 900px;
     height: 3px;
     height: 1px;
     background: rgb(225, 229, 236);
